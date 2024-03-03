@@ -8,5 +8,7 @@ namespace Escuela_de_computacion_actividad_2
 {
     internal class Alumnos
     {
+        //hello
+        
     }
 }
