@@ -22,11 +22,11 @@ namespace Escuela_de_computacion_actividad_2
             this.año = 2020;
         }
 
-        public Fecha(int dia, int mes, int año)
+        public Fecha(int Dia, int Mes, int Año)
         {
-            this.dia = dia;
-            this.mes = mes;
-            this.año = año;
+            this.dia = Dia;
+            this.mes = Mes;
+            this.año = Año;
         }
 
         //Metodo
