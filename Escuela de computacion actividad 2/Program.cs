@@ -1,2 +1,11 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Buenos dias se ha echo un cambio");
+
+using Escuela_de_computacion_actividad_2;
+
+Fecha fecha = new Fecha();
+
+
+
+fecha.modificarFecha();
+fecha.MostrarFecha();
+fecha.MostrarFechaPalabras();
