@@ -30,25 +30,25 @@ namespace Escuela_de_computacion_actividad_2
         }
 
         //Metodo
-        public void modificarFecha() 
+        public void modificarFecha()
         {
             dia = 0;
             mes = 0;
             año = 0;
             Console.WriteLine("Ingrese el dia");
-            dia=int.Parse(Console.ReadLine());
+            dia = int.Parse(Console.ReadLine());
             Console.WriteLine("Ingrese el mes");
             mes = int.Parse(Console.ReadLine());
             Console.WriteLine("Ingrese el año");
-            año=int.Parse(Console.ReadLine());
+            año = int.Parse(Console.ReadLine());
             Console.WriteLine("");
         }
 
-        public void MostrarFecha() 
+        public void MostrarFecha()
         {
-            Console.WriteLine(dia+"/"+mes+"/"+año);
+            Console.WriteLine(dia + "/" + mes + "/" + año);
         }
-
+        
         public void MostrarFechaPalabras() 
         { 
         switch(mes) 
@@ -89,7 +89,9 @@ namespace Escuela_de_computacion_actividad_2
             case 12:
             Console.WriteLine(dia + " de " + "Diciembre" + " del  " + año);
             break;
-
+                default:
+                    Console.WriteLine("Mes erroneo");
+                    break;
             }
         
         

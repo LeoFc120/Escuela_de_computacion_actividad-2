@@ -4,8 +4,6 @@ using Escuela_de_computacion_actividad_2;
 
 Fecha fecha = new Fecha();
 
-
-
 fecha.modificarFecha();
 fecha.MostrarFecha();
 fecha.MostrarFechaPalabras();
